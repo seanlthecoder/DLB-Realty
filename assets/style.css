@@ -81,7 +81,7 @@ background-color: black;
 .form-inline {
     display: flex;
     flex-direction:row;
-    justify-content: space-evenly;
+    justify-content: start;
     align-items: center;
     margin-bottom: 40px;
 
