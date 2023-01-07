@@ -1,100 +1,86 @@
 .head-1 {
-display: flex;
-align-items: center;
-color: brown;
-justify-content: center;
-background-image: url(./images/chicago-nighttime.jpg);
-background-size: cover;
-font-size: 60px;
-text-decoration: overline;
-font-family: Montserrat;
-padding: 60px;
-
-
+  display: flex;
+  align-items: center;
+  color: brown;
+  justify-content: center;
+  background-image: url(./images/chicago-nighttime.jpg);
+  background-size: cover;
+  font-size: 60px;
+  text-decoration: overline;
+  font-family: Montserrat;
+  padding: 60px;
 }
 
 .banner {
-    display: flex;
+  display: flex;
 }
 
-
+#font-1 {
+  font-family: Montserrat;
+  font-weight: bold;
+}
 
 .DLB-1 {
-    margin-left: 25px;
-float: right;
-display: list-item;
-text-align: -webkit-match-parent;
-display: flex;
-
+  margin-left: 25px;
+  float: right;
+  display: list-item;
+  text-align: -webkit-match-parent;
+  display: flex;
 }
-
 
 .DLB-2 {
-margin-left: 25px;
-float: right;
-display: list-item;
-text-align: -webkit-match-parent;
-display: flex;
-color: brown;
-
+  margin-left: 25px;
+  float: right;
+  display: list-item;
+  text-align: -webkit-match-parent;
+  display: flex;
+  color: brown;
 }
-
-
-
-
 
 .DLB-3 {
-    margin-left: 25px;
-    float: right;
-    display: list-item;
-    text-align: -webkit-match-parent;
-    display: flex;
+  margin-left: 25px;
+  float: right;
+  display: list-item;
+  text-align: -webkit-match-parent;
+  display: flex;
 }
 
-
 .jumbotron {
-
-background-color: black;
-
+  background-color: black;
 }
 
 .lead-2 {
-    font-size: 18px;
-    font-weight: bold;
-    color: ghostwhite;
-
+  font-size: 18px;
+  font-weight: bold;
+  color: ghostwhite;
 }
 
 .Pgraph-2 {
-    font-size: 18px;
-    font-weight: bold;
-    color: ghostwhite;
-
+  font-size: 18px;
+  font-weight: bold;
+  color: ghostwhite;
 }
 
 .lead {
-    font-size: 18px;
-    font-weight: bold;
-    color: ghostwhite;
+  font-size: 18px;
+  font-weight: bold;
+  color: ghostwhite;
 }
 
 .form-inline {
-    display: flex;
-    flex-direction:row;
-    justify-content: start;
-    align-items: center;
-    margin-bottom: 40px;
-
-
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 40px;
 }
 
 #body-1 {
-display: flex;
-flex-direction: column;
-font-size: 16px;
-line-height: 1.5;
-background-color: gray;
-
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: gray;
 }
 
 /* 
@@ -115,27 +101,28 @@ background-color: gray;
 } */
 
 .row {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .login-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  padding: 50px;
+}
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 30px;
-    padding: 50px;
-
+.footer-1 {
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 
 .display-4 {
+  background-image: url(./images/downtown.jpg);
 
- background-image: url(./images/downtown.jpg);
- 
- padding: 250px;
-
+  padding: 250px;
 }
